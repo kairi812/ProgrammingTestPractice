@@ -9,7 +9,7 @@ int main() {
     int N, M;
     cin >> N >> M;
 
-    vector<vector<long long>> dp(N, vector<long long>(N, INF);
+    vector<vector<long long>> dp(N, vector<long long>(N, INF));
     
     for (int e=0; e<M; ++e) {
         int a, b;
